@@ -41,7 +41,7 @@ export default {
 				sourceDir: path.resolve(__dirname, 'src/node_modules/images'),
 				publicPath: '/client/'
 			}),
-			css({output: "static/extra.css"}),
+			css({ output: "static/extra.css" }),
 			resolve({
 				browser: true,
 				dedupe: ['svelte']
